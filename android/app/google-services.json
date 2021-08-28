@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "958017195900",
+    "project_id": "project-flutter-e0917",
+    "storage_bucket": "project-flutter-e0917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958017195900:android:a65a0fa4676a4fa5779ef9",
+        "android_client_info": {
+          "package_name": "com.example.hangoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958017195900-sudlkge3ahiql8u8bmfas9eukjdk6mcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa16EeFOA_9pqFnIrlRmxTZRnfHoI7u-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958017195900-sudlkge3ahiql8u8bmfas9eukjdk6mcl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "958017195900-4og3ce8cda8g9s33u0aglnefchsoq0uf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.project"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
