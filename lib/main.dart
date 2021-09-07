@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hangoutapp/theme/custom_light_theme.dart';
+import 'package:hangoutapp/theme/theme_config.dart';
 
 import 'app/utils/navigation_repo.dart';
 import 'locator.dart';
@@ -38,9 +40,8 @@ class MyApp extends StatelessWidget {
       initialRoute: Splash,
       onGenerateRoute: RouteGenerator.generateRoute,
       debugShowCheckedModeBanner: false,
-      // todo [add theme]
-      // theme: CustomTheme.lightTheme,
-      // themeMode: currentTheme.currentTheme,
+      theme: CustomTheme.lightTheme,
+      themeMode: currentTheme.currentTheme,
     );
   }
 }
