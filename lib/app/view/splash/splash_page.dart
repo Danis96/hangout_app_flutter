@@ -22,6 +22,7 @@ class _SplashPageState extends State<SplashPage> {
 Widget _buildBody() {
   return SafeArea(
     child: Container(
+      key: const Key('splash_body_key'),
       height: double.infinity,
       width: double.infinity,
       color: Colors.white,

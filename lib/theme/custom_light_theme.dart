@@ -24,7 +24,7 @@ class CustomTheme {
       accentColor: ColorHelper.black.color,
       backgroundColor: ColorHelper.paleWhite.color,
       errorColor: const Color.fromRGBO(232, 25, 68, 1.0),
-      scaffoldBackgroundColor: ColorHelper.paleWhite.color,
+      scaffoldBackgroundColor: ColorHelper.white.color,
       textTheme: TextTheme(
         headline1: TextStyle(
           fontSize: 36,

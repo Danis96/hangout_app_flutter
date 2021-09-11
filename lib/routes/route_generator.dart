@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hangoutapp/app/providers/splash_provider.dart';
 import 'package:hangoutapp/app/utils/navigation_animations.dart';
 import 'package:hangoutapp/app/view/splash/splash_page.dart';
+import 'package:hangoutapp/app/view/welcome/welcome_page.dart';
 import 'package:provider/provider.dart';
 
 import 'routes.dart';
@@ -13,6 +14,8 @@ class RouteGenerator {
         return SlideAnimationTween(
           widget: Provider<SplashProvider>(create: (_) => SplashProvider(), lazy: false, child: SplashPage()),
         );
+      case Welcome:
+        return SlideAnimationTween(widget: WelcomePage());
       default:
         return _errorRoute();
     }
